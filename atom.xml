@@ -10,9 +10,9 @@
     </author>
     <updated>2022-03-29T04:16:29.000Z</updated>
     <entry>
-        <id>https://stdiostudy.github.io/Computer%20Science/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+        <id>https://stdiostudy.github.io/Computer-Science/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
         <title>关于博客图片无法显示的解决办法</title>
-        <link rel="alternate" href="https://stdiostudy.github.io/Computer%20Science/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+        <link rel="alternate" href="https://stdiostudy.github.io/Computer-Science/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
         <content type="html">&lt;h2 id=&#34;关于博客图片无法显示的解决办法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客图片无法显示的解决办法&#34;&gt;#&lt;/a&gt; 关于博客图片无法显示的解决办法&lt;/h2&gt;
 &lt;p&gt;大家好，我是 Lyang&lt;/p&gt;
 &lt;p&gt;本人在尝试多种方法后，最终确定了一个能稳定显示本地图片的办法。&lt;/p&gt;
@@ -40,9 +40,9 @@
         <updated>2022-03-29T04:16:29.000Z</updated>
     </entry>
     <entry>
-        <id>https://stdiostudy.github.io/Computer%20Science/C-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</id>
+        <id>https://stdiostudy.github.io/Computer-Science/C-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</id>
         <title>C++基础入门</title>
-        <link rel="alternate" href="https://stdiostudy.github.io/Computer%20Science/C-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://stdiostudy.github.io/Computer-Science/C-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1 id=&#34;c基础入门&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c基础入门&#34;&gt;#&lt;/a&gt; C++ 基础入门&lt;/h1&gt;
 &lt;h2 id=&#34;1-c初识&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-c初识&#34;&gt;#&lt;/a&gt; 1 C++ 初识&lt;/h2&gt;
 &lt;h3 id=&#34;11-第一个c程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11-第一个c程序&#34;&gt;#&lt;/a&gt; 1.1  第一个 C++ 程序&lt;/h3&gt;
