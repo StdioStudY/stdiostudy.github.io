@@ -7,6 +7,17 @@
     "home_page_url": "https://StdioStudY.github.io",
     "items": [
         {
+            "id": "https://stdiostudy.github.io/Math/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/",
+            "url": "https://stdiostudy.github.io/Math/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/",
+            "title": "矢量代数与空间解析几何",
+            "date_published": "2022-03-31T04:28:18.000Z",
+            "content_html": "<h1 id=\"矢量代数与空间解析几何\"><a class=\"anchor\" href=\"#矢量代数与空间解析几何\">#</a> 矢量代数与空间解析几何</h1>\n<p><strong>作者：681CT</strong>（非本人许可请勿转载)</p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124613902.png\" alt=\"image-20220331124613902\" /></p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124712430.png\" alt=\"image-20220331124712430\" /></p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124725329.png\" alt=\"image-20220331124725329\" /></p>\n",
+            "tags": [
+                "高等数学知识点总结",
+                "高等数学 矢量代数 空间几何"
+            ]
+        },
+        {
             "id": "https://stdiostudy.github.io/A-General-Course-in-Electromagnetism/%E8%A1%A5%E5%85%85%E3%80%8A%E7%94%B5%E7%A3%81%E5%AD%A6%E9%80%9A%E8%AE%BA%E3%80%8B%E7%9A%84%E5%BA%93%E4%BC%A6%E6%89%AD%E7%A7%A4%E5%AE%9E%E9%AA%8C/",
             "url": "https://stdiostudy.github.io/A-General-Course-in-Electromagnetism/%E8%A1%A5%E5%85%85%E3%80%8A%E7%94%B5%E7%A3%81%E5%AD%A6%E9%80%9A%E8%AE%BA%E3%80%8B%E7%9A%84%E5%BA%93%E4%BC%A6%E6%89%AD%E7%A7%A4%E5%AE%9E%E9%AA%8C/",
             "title": "补充《电磁学通论》的库伦扭秤实验",
