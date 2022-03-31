@@ -7,14 +7,15 @@
     "home_page_url": "https://StdioStudY.github.io",
     "items": [
         {
-            "id": "https://stdiostudy.github.io/Math/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/",
-            "url": "https://stdiostudy.github.io/Math/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/",
-            "title": "矢量代数与空间解析几何",
-            "date_published": "2022-03-31T04:28:18.000Z",
-            "content_html": "<h1 id=\"矢量代数与空间解析几何\"><a class=\"anchor\" href=\"#矢量代数与空间解析几何\">#</a> 矢量代数与空间解析几何</h1>\n<p><strong>作者：681CT</strong>（非本人许可请勿转载)</p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124613902.png\" alt=\"image-20220331124613902\" /></p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124712430.png\" alt=\"image-20220331124712430\" /></p>\n<p><img data-src=\"/source/images/%E7%9F%A2%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/image-20220331124725329.png\" alt=\"image-20220331124725329\" /></p>\n",
+            "id": "https://stdiostudy.github.io/Math/%E4%B8%8A%E5%86%8C/",
+            "url": "https://stdiostudy.github.io/Math/%E4%B8%8A%E5%86%8C/",
+            "title": "上册",
+            "date_published": "2022-03-31T06:10:10.000Z",
+            "content_html": "<h1 id=\"七-矢量代数与空间解析几何\"><a href=\"#七-矢量代数与空间解析几何\" class=\"headerlink\" title=\"七.矢量代数与空间解析几何\"></a>七.矢量代数与空间解析几何</h1><p>作者：681CT（未经许可，请勿转载）</p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142324171.png\" alt=\"image-20220331142324171\"></p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142128354.png\" alt=\"image-20220331142128354\"></p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142255895.png\" alt=\"image-20220331142255895\"></p>\n",
             "tags": [
                 "高等数学知识点总结",
-                "高等数学 矢量代数 空间几何"
+                "高等数学",
+                "空间解析几何"
             ]
         },
         {
