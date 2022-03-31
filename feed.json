@@ -7,15 +7,17 @@
     "home_page_url": "https://StdioStudY.github.io",
     "items": [
         {
-            "id": "https://stdiostudy.github.io/Math/%E4%B8%8A%E5%86%8C/",
-            "url": "https://stdiostudy.github.io/Math/%E4%B8%8A%E5%86%8C/",
-            "title": "上册",
-            "date_published": "2022-03-31T06:10:10.000Z",
-            "content_html": "<h1 id=\"七-矢量代数与空间解析几何\"><a href=\"#七-矢量代数与空间解析几何\" class=\"headerlink\" title=\"七.矢量代数与空间解析几何\"></a>七.矢量代数与空间解析几何</h1><p>作者：681CT（未经许可，请勿转载）</p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142324171.png\" alt=\"image-20220331142324171\"></p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142128354.png\" alt=\"image-20220331142128354\"></p>\n<p><img data-src=\"/source/images/%E4%B8%8A%E5%86%8C/image-20220331142255895.png\" alt=\"image-20220331142255895\"></p>\n",
+            "id": "https://stdiostudy.github.io/Math/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/",
+            "url": "https://stdiostudy.github.io/Math/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/",
+            "title": "高等数学知识点总结",
+            "date_published": "2022-03-31T06:37:09.000Z",
+            "content_html": "<h1 id=\"高等数学上册\"><a class=\"anchor\" href=\"#高等数学上册\">#</a> 高等数学上册</h1>\n<h2 id=\"七矢量代数与空间解析几何\"><a class=\"anchor\" href=\"#七矢量代数与空间解析几何\">#</a> 七。矢量代数与空间解析几何</h2>\n<p>作者：681CT（未经许可，禁止转载）</p>\n<p><img data-src=\"/source/images/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/image-20220331144334335.png\" alt=\"image-20220331144334335\" /></p>\n<p><img data-src=\"/source/images/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/image-20220331144346558.png\" alt=\"image-20220331144346558\" /></p>\n<p><img data-src=\"/source/images/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/image-20220331144402109.png\" alt=\"image-20220331144402109\" /></p>\n<h1 id=\"高等数学下册\"><a class=\"anchor\" href=\"#高等数学下册\">#</a> 高等数学下册</h1>\n",
             "tags": [
-                "高等数学知识点总结",
                 "高等数学",
-                "空间解析几何"
+                "高等数学",
+                "知识总结",
+                "线性代数",
+                "微积分"
             ]
         },
         {
