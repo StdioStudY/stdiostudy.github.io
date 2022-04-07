@@ -10,8 +10,77 @@
         </author>
         <description>书山有路勤为径，学海无涯苦作舟。</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 31 Mar 2022 14:37:09 +0800</pubDate>
-        <lastBuildDate>Thu, 31 Mar 2022 14:37:09 +0800</lastBuildDate>
+        <pubDate>Thu, 07 Apr 2022 16:09:09 +0800</pubDate>
+        <lastBuildDate>Thu, 07 Apr 2022 16:09:09 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://stdiostudy.github.io/Computer-Science/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
+            <title>基础算法——快速排序</title>
+            <link>https://stdiostudy.github.io/Computer-Science/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
+            <category term="计算机科学" scheme="https://stdiostudy.github.io/categories/Computer-Science/" />
+            <category term="计算机科学" scheme="https://stdiostudy.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
+            <category term="基础算法" scheme="https://stdiostudy.github.io/tags/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" />
+            <pubDate>Thu, 07 Apr 2022 16:09:09 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;基础算法-快速排序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础算法-快速排序&#34;&gt;#&lt;/a&gt; 基础算法 ---- 快速排序&lt;/h2&gt;
+&lt;p&gt;作者：lyang（未经允许，请勿转载）&lt;/p&gt;
+&lt;p&gt;快排主要思想便是分治。&lt;/p&gt;
+&lt;p&gt;什么是分治？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分成子问题&lt;/li&gt;
+&lt;li&gt;递归处理子问题&lt;/li&gt;
+&lt;li&gt;子问题合并&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而这里我大概总结了一下，便是找点排序再组合了。&lt;/p&gt;
+&lt;p&gt;什么是找点？找点就是在一个区间内随便找一个分界点，一般是中点。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;int x=l+r&amp;gt;&amp;gt;1;//l为左边界，r为右边界，x为分界点
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;/source/images/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/64442FCE84D57886D5BEC876DC6F5E9D.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;那么找到这么一个分界点是要干什么？&lt;/p&gt;
+&lt;p&gt;找到这么一个分界点是为了将区间分为两半&lt;/p&gt;
+&lt;p&gt;然后再调整区间：让小于等于 x 的数在左区间，大于等于 x 的数在右区间&lt;/p&gt;
+&lt;p&gt;最后在递归处理两个区间，两个区间分别排序，再组合（即两个区间再合在一起）一下便可。&lt;/p&gt;
+&lt;p&gt;快排思想图：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/source/images/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/1130_1196bbb27a-2.gif&#34; alt=&#34;1130_1196bbb27a-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这里给出一个模板。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;void quick_sort(int q[], int l, int r)
+&amp;#123;
+    if (l &amp;gt;= r) return;//首先判断一下，如果只有一个数字，就返回
+
+    int i = l - 1, j = r + 1, x = q[l + r &amp;gt;&amp;gt; 1];//确定分界点x，由于是从下一位开始，所以要设l-1，r+1
+    while (i &amp;lt; j)//设一个循环确定小于x的在左，大于x的在右
+    &amp;#123;
+        do i ++ ; while (q[i] &amp;lt; x);//用指针从左到右排除，如果有大于x的便会跳出循环，假设一个q[2]大于x
+        do j -- ; while (q[j] &amp;gt; x);//用指针从右到左排除，如果有小于x的便会跳出循环，假设一个q[6]小于x
+        if (i &amp;lt; j) swap(q[i], q[j]);//交换q[2],q[6],将小的放到左区间，大的放到右区间，直到i与j相遇为止
+    &amp;#125;
+    quick_sort(q, l, j), quick_sort(q, j + 1, r);//归并处理左，右区间
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;问题一：&lt;/p&gt;
+&lt;p&gt;如何用指针指向这串数字？&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;for(int i=0;i&amp;lt;n;i++) scanf(&amp;quot;%d&amp;quot;,&amp;amp;q[i]);//用for循环输入这串数字即可，数组是特殊的指针，可以精确定位数字的“位置”，那为什么用scanf呢？因为scanf比cin运行更快，可以大大提升效率
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;问题二：&lt;/p&gt;
+&lt;p&gt;快速排序有哪些优点呢？&lt;/p&gt;
+&lt;p&gt;正如它的名字一样，快速排序优点就是快，比起冒泡排序，一些题目它能有效的减少运行时间。&lt;/p&gt;
+&lt;p&gt;这种划分方式在平均情况下时间复杂度为 O (nlogn) O (nlog⁡n)，空间复杂度为 O (logn) O (log⁡n)。最坏情况为数组已排好序或者数组中的数都相等，此时每次划分只会将数组的长度减少 1，会递归 nn 次，导致时间复杂度为 O (n2) O (n2)，空间复杂度为 O (n) O (n)。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/source/images/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/1130_0ce35b527a-1.png&#34; alt=&#34;1130_0ce35b527a-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这里再给一下从大到小的模板&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;void quick_sort(int q[], int l, int r)
+&amp;#123;
+    if(l &amp;gt;= r) return;
+
+    int i = l - 1, j = r + 1, x = q[l + r &amp;gt;&amp;gt; 1];
+    while(i &amp;lt; j)
+    &amp;#123;
+        do i++; while(q[i] &amp;gt; x); // 这里和下面
+        do j--; while(q[j] &amp;lt; x); // 这行的判断条件改一下
+        if(i &amp;lt; j) swap(q[i], q[j]);
+    &amp;#125;
+    quick_sort(q, l, j), quick_sort(q, j + 1, r);
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://stdiostudy.github.io/Math/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
             <title>高等数学知识点总结</title>
